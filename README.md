@@ -1,16 +1,19 @@
 # Setting up Docker on Mac OS X
 
+**DEPRECATED: Officially supported, see: https://docs.docker.com/docker-for-mac/**
+
 _(loosely based on (http://johnzanchetta.wordpress.com/2014/02/08/setting-up-a-docker-dev-environment-on-mac-os-x/)[this])_
 
-##Prerequisites
+## Prerequisites
 
 * Mac OS X
 * homebrew
 * docker client
 * Vagrant
-** VirtualBox
+* VirtualBox
 * Centos 7 box
 
+## Usage
 
 ```
 #install docker client
@@ -27,5 +30,4 @@ vagrant up
 
 #check your boxes
 vagrant box list
-
 ```
